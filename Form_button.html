@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Object Document</title>
+</head>
+<body>
+	<SCRIPT language="JavaScript"> // sebagai penggunaan bahasa pemrograman bahasa java script.
+		//<!-
+		function ubahWarnaLB(warna){
+			document.bgColor = warna; // Sebagai pewarna background/latar belakang
+		}
+		function ubahWarnaLD(warna){
+			document.fgColor = warna; // Sebagai pewarna pada font.
+		}
+		//->
+	</SCRIPT>
+
+	<h1>TES</h1>
+	<form>
+		<input type="button" 
+		value="Latar Belakang Hijau"
+		onclick="ubahWarnaLB('GREEN')" >
+		<input type="button" 
+		value="Latar Belakang Putih" 
+		onclick="ubahWarnaLB('WHITE')">
+		<input type="button" 
+		value="Teks Kuning" 
+		onclick="ubahWarnaLD('YELLOW')">
+		<input type="button" 
+		value="Teks Biru" 
+		onclick="ubahWarnaLD('BLUE')">
+	</form>
+
+</body>
+</html>

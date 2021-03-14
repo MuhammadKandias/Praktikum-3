@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latihan 1 (Konversi Nilai)</title>
+</head>
+<SCRIPT language="javaScript"> // Sebagai penggunaan bahasa pemrograman bahasa java script.	
+	var nilai = prompt("Masukkan Nilai (0-100) : " , ""); // Menampilkan kolom input nilai.
+	if (nilai <= 40)
+		hasil = "E";
+
+	else if (nilai <= 55)
+		hasil = "D";
+
+	else if (nilai <= 60)
+		hasil = "C";
+
+	else if (nilai <= 65)
+		hasil = "BC";
+
+	else if (nilai <= 70)
+		hasil = "B";
+
+	else if (nilai <= 80)
+		hasil = "AB";
+
+	else if (nilai <= 100)
+		hasil = "A";
+
+	else
+		hasil = "Nilai tidak sesuai, Masukkan nilai kembali!";
+	document.write("Hasil : " + hasil);
+</SCRIPT>
+</body>
+</html>

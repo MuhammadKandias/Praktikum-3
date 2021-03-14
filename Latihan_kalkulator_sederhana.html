@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulaator Sederhana</title>
+</head>
+<SCRIPT language="JavaScript">
+	<!--
+	function tambah() // sebagai class penjumlahan (tambah)
+	{
+		var myform = document.form1; // myform untuk mengindex objek seperti array yakni value variable a dan b
+		var a = eval(myform.x.value); // eval untuk mengavaluasi/pernyataan terhadap varible a
+		var b = eval(myform.y.value); // eval untuk mengavaluasi/pernyataan terhadap varible b
+		var c = a + b;
+		myform.hasil.value = c;
+	}
+	function kurang() // sebagai class pengurangan (kurang)
+	{
+		var myform = document.form1; // myform untuk mengindex objek seperti array yakni value variable a dan b
+		var a = eval(myform.x.value); // eval untuk mengavaluasi/pernyataan terhadap varible a
+		var b = eval(myform.y.value); // eval untuk mengavaluasi/pernyataan terhadap varible b
+		var c = a - b;
+		myform.hasil.value = c;
+	}
+	function kali() // sebagai class perkalian (kali)
+	{
+		var myform = document.form1; // myform untuk mengindex objek seperti array yakni value variable a dan b
+		var a = eval(myform.x.value); // eval untuk mengavaluasi/pernyataan terhadap varible a
+		var b = eval(myform.y.value); // eval untuk mengavaluasi/pernyataan terhadap varible b
+		var c = a * b;
+		myform.hasil.value = c;
+	}
+	function bagi() // sebagai class pembagian (bagi)
+	{
+		var myform = document.form1; // myform untuk mengindex objek seperti array yakni value variable a dan b
+		var a = eval(myform.x.value); // eval untuk mengavaluasi/pernyataan terhadap varible a
+		var b = eval(myform.y.value); // eval untuk mengavaluasi/pernyataan terhadap varible b
+		var c = a / b;
+		myform.hasil.value = c;
+	}
+	//-->
+</SCRIPT>
+		<form name="form1" action="#">
+			<p>Bil 1 <input type="text" name="x"></p>
+			<p>Bil 2 <input type="text" name="y"></p>
+			<P>Hasil Konversi <input type="text" name="hasil" disabled="true"></P>			
+			<input type="button" value="+" onclick="tambah()">
+			<input type="button" value="-" onclick="kurang()">
+			<input type="button" value="x" onclick="kali()">
+			<input type="button" value="/" onclick="bagi()">
+		</form>
+</body>
+</html>

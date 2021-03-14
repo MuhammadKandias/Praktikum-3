@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<SCRIPT language="javaScript"> //sebagai penggunaan bahasa pemrograman bahasa java script.
+	function test() //sebagai class test
+	{
+		var val1=document.kirim. T1. value // kirim. T1 Sebagai deklarasi variable kolom input "BIL".
+		/* if...else dikunakan untuk kondisi dua kemungkinan dengan menggunkan equal.*/
+		if (val1%2==0)
+			document.kirim.T2. value="Bilangan Genap" // kirim. T2 Sebagai deklarasi variable kolom input "MERUPAKAN BIL".
+		else
+			document.kirim.T2. value="Bilangan Ganjil" // kirim. T2 Sebagai deklarasi variable kolom input "MERUPAKAN BIL".
+	}
+</SCRIPT>
+<body>
+	<form method="POST" name="kirim">
+
+		<p>BIL <input type="text" name="T1" size="20">
+		 MERUPAKAN BIL <input type="text" name="T2" size="20"></p>
+		 
+		 <p><input type="button" value="TEBAK" name="B1"onclick="test()"></p>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh Pemograman JavaScript</title>
+</head>
+<SCRIPT language="JavaScript"> //sebagai penggunaan bahasa pemrograman bahasa java script.
+	function test() //sebagai class test
+{
+		val1=window.prompt("Input nilai (1-5) : ") //untuk menampilkan pop up serta kolom isi dengan range nilai input (1-5)
+		switch (val1){ //deklarasi untuk mengecek variable val1
+			case "1" : //perintah untuk mengelola/mencocokkan percabangan dari variable val1
+			document.write("Bilangan Satu") //untuk menampilkan bilangan hasil input nilai 1
+			break // sebagai pembatas pada tiap perintah case
+			case "2" : //perintah untuk mengelola/mencocokkan percabangan dari variable val1
+			document.write("Bilangan dua") //untuk menampilkan bilangan hasil input nilai 1
+			break // sebagai pembatas pada tiap perintah case
+			case "3" : //perintah untuk mengelola/mencocokkan percabangan dari variable val1
+			document.write("Bilangan tiga") //untuk menampilkan bilangan hasil input nilai 1
+			break // sebagai pembatas pada tiap perintah case
+			case "4" : //perintah untuk mengelola/mencocokkan percabangan dari variable val1
+			document.write("Bilangan empat") //untuk menampilkan bilangan hasil input nilai 1
+			break // sebagai pembatas pada tiap perintah case
+			case "5" : //perintah untuk mengelola/mencocokkan percabangan dari variable val1
+			document.write("Bilangan lima") //untuk menampilkan bilangan hasil input nilai 1
+			break // sebagai pembatas pada tiap perintah case
+
+			default : // untuk mengelola hasil percabangan yang tidak di tangani oleh perintah case
+			document.write("Bilangan Lainnya") //untuk menampilkan bilangan hasil input nilai selain 1-5
+		}
+	}
+</SCRIPT>
+<body>
+	<input type="button" name="button1" value="switch"
+	onclick="test()"> //Menampilkan button(tombol) bertuliskan switch yang dapat di klik sehingga memunculkan pop up yang dapat di isi untuk kemudian lanjut pada halaman web berisi hasil bilangan yang telah di inputkan.
+
+</body>
+</html>
